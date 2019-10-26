@@ -179,15 +179,10 @@ a:hover { text-decoration: none }
   background-color: #FBFBFF;
   padding: 50px;
 }
-.subscribe-box-area .email-subscribe-box {
-  width: 80%;
-  margin: inherit;
-  margin-top: 30px;
-}
-.subscribe-box-area p {
-  font-size: 28px;
-  color: #4151B3;
-  line-height: 1.2;
+
+.bottom-join-form {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 /*=========================
   Footer-subscribe-area END
