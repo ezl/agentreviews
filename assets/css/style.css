@@ -131,12 +131,19 @@ a:hover { text-decoration: none }
   font-size: 30px;
   border-radius: 50%;
   color: #4050B2;
-  margin-bottom: 15px;
+  margin: 0 auto;
+}
+.green-circle {
+  background-color: #8AE132;
+  color: white;
+}
+.red-circle {
+  background-color: #F27D7E;
+  color: white;
 }
 .promo-content h5 {
   font-size: 20px;
   color: #000;
-  margin-bottom: 2px;
 }
 /*=========================
   Promo-area END
@@ -154,11 +161,6 @@ a:hover { text-decoration: none }
 }
 .dot-shap2 img {
   width: 35%;
-}
-.promo-right-inner h5 {
-  margin-top: 40px;
-  margin-bottom: 2px;
-  font-size: 20px;
 }
 /*Shape end*/
 
