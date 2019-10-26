@@ -1,0 +1,299 @@
+/* Base CSS */
+
+/*Google fonts*/
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: 600;
+  color: #212830;
+}
+body {
+  color: #6f767e;
+  font-weight: 400;
+}
+p {
+    line-height: 1.8;
+    font-size: 14px;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+a{
+  transition: all 0.3s ease;
+}
+a:hover { text-decoration: none }
+
+
+
+
+
+
+/*Header-area*/
+
+.header-transparent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: ;
+}
+.header-area {
+  text-align: center;
+  padding: 60px 0;
+}
+/*Header-area END*/
+
+
+
+
+
+
+
+
+
+
+/*=========================
+  Hero-area START
+===========================*/
+.hero-area {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content h4 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.hero-content{
+  text-align: center;
+}
+.hero-content p {
+  color: #fff;
+}
+.hero-content h3 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.email-subscribe-box {
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.1);
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.email-subscribe-box input {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 50px;
+}
+.email-subscribe-box button {
+  background-color: #4151B3;
+  border: 0;
+  color: #fff;
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50px;
+  width: 150px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/*spane*/
+.hero-shape img {
+  width: 100%;
+  margin-top: -310px;
+}
+/*spane*/
+/*=========================
+  Hero-area END
+===========================*/
+
+
+
+
+
+/*=========================
+  Brand-area START
+===========================*/
+
+.branding-area {
+  text-align: center;
+  padding-bottom: 100px;
+}
+/*=========================
+  Brand-area END
+===========================*/
+
+
+/*=========================
+  Promo-area START
+===========================*/
+
+.promo-area {
+  background-color: #fff;
+  padding: 40px 0;
+}
+.gray-bg{
+  background-color: #F9F9FD;
+}
+.promo-number {
+  width: 60px;
+  height: 60px;
+  background-color: #EEEEFA;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+  border-radius: 50%;
+  color: #4050B2;
+  margin-bottom: 15px;
+}
+.promo-contetn h5 {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 2px;
+}
+/*=========================
+  Promo-area END
+===========================*/
+
+/*Shape*/
+
+.dot-shape {
+  margin-top: -70px;
+  margin-bottom: -70px;
+  text-align: center;
+}
+.dot-shape img {
+  width: ;
+}
+.dot-shap2 img {
+  width: 35%;
+}
+.promo-right-inner h5 {
+  margin-top: 40px;
+  font-size: 25px;
+}
+/*Shape end*/
+
+
+
+
+
+
+
+
+
+/*=========================
+  Header-area START
+===========================*/
+
+/*=========================
+  Header-area END
+===========================*/
+
+
+
+
+
+/*=========================
+  Footer-subscribe-area START
+===========================*/
+
+.subscribe-box-area {
+  background-color: #FBFBFF;
+  padding: 50px;
+}
+.subscribe-box-area .email-subscribe-box {
+  width: 80%;
+  margin: inherit;
+  margin-top: 30px;
+}
+.subscribe-box-area p {
+  font-size: 28px;
+  color: #4151B3;
+  line-height: 1.2;
+}
+/*=========================
+  Footer-subscribe-area END
+===========================*/
+
+
+
+
+
+/*=========================
+  Footer-area START
+===========================*/
+.footer-area hr {
+  margin: 0;
+}
+.widgets-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.widgets-menu ul li {
+  display: inline-block;
+}
+.widgets-menu ul li a {
+  color: #9B9B9B;
+  font-size: 14px;
+  display: block;
+  padding: 30px 0;
+  transition: .3s;
+}
+.widgets-menu ul li {
+  margin-right: 50px;
+}
+.widgets-menu ul li:last-child {
+  margin-right: 0;
+}
+.copyright {
+  font-size: 14px;
+  color: #9B9B9B;
+  text-align: right;
+}
+.widgets-menu ul li a:hover {
+  color: #4151B3;
+}
+/*=========================
+  Footer-area END
+===========================*/
