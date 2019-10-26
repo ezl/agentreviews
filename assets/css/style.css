@@ -76,7 +76,7 @@ a:hover { text-decoration: none }
   color: white;
   margin-bottom: 20px;
 }
-.hero-content{
+.hero-content {
   text-align: center;
 }
 .hero-content p {
@@ -117,9 +117,8 @@ a:hover { text-decoration: none }
 
 .promo-area {
   background-color: #fff;
-  padding: 40px 0;
 }
-.gray-bg{
+.gray-bg {
   background-color: #F9F9FD;
 }
 .promo-number {
@@ -133,7 +132,7 @@ a:hover { text-decoration: none }
   color: #4050B2;
   margin-bottom: 15px;
 }
-.promo-contetn h5 {
+.promo-content h5 {
   font-size: 20px;
   color: #000;
   margin-bottom: 2px;
@@ -157,7 +156,8 @@ a:hover { text-decoration: none }
 }
 .promo-right-inner h5 {
   margin-top: 40px;
-  font-size: 25px;
+  margin-bottom: 2px;
+  font-size: 20px;
 }
 /*Shape end*/
 

@@ -12,15 +12,18 @@
   color: #FFD400;
 }
 
+.dark {
+  color: #4151B3;
+}
 .btn-gold {
   background-color: #FFD400;
   color: #4151B3;
 }
 
-.padtop {
-  padding-top: 20px;
+.section-header {
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
-
 
 .arrow {
   position: absolute;
