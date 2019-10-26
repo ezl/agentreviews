@@ -50,21 +50,6 @@ a:hover { text-decoration: none }
 
 
 
-/*Header-area*/
-
-.header-transparent {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  text-align: ;
-}
-.header-area {
-  text-align: center;
-  padding: 60px 0;
-}
-/*Header-area END*/
-
 
 
 
@@ -88,7 +73,7 @@ a:hover { text-decoration: none }
 .hero-content h4 {
   font-size: 30px;
   font-weight: 400;
-  color: #fff;
+  color: white;
   margin-bottom: 20px;
 }
 .hero-content{
@@ -104,44 +89,7 @@ a:hover { text-decoration: none }
   margin-top: 50px;
   margin-bottom: 40px;
 }
-.email-subscribe-box {
-  position: relative;
-  z-index: 1;
-  box-shadow: 0 5px 15px 0 rgba(0,0,0,.1);
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 30px;
-}
-.email-subscribe-box input {
-  width: 100%;
-  background-color: #fff;
-  padding: 15px;
-  border: 0;
-  border-radius: 5px;
-  font-size: 14px;
-  height: 50px;
-}
-.email-subscribe-box button {
-  background-color: #4151B3;
-  border: 0;
-  color: #fff;
-  position: absolute;
-  right: -1px;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 50px;
-  width: 150px;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 14px;
-}
 
-/*spane*/
-.hero-shape img {
-  width: 100%;
-  margin-top: -310px;
-}
-/*spane*/
 /*=========================
   Hero-area END
 ===========================*/
@@ -218,16 +166,6 @@ a:hover { text-decoration: none }
 
 
 
-
-
-
-/*=========================
-  Header-area START
-===========================*/
-
-/*=========================
-  Header-area END
-===========================*/
 
 
 
