@@ -145,6 +145,10 @@ a:hover { text-decoration: none }
   font-size: 20px;
   color: #000;
 }
+
+.promo-unit {
+  margin-top: 1em;
+}
 /*=========================
   Promo-area END
 ===========================*/
@@ -152,15 +156,13 @@ a:hover { text-decoration: none }
 /*Shape*/
 
 .dot-shape {
-  margin-top: -70px;
-  margin-bottom: -70px;
   text-align: center;
+  margin-top: -15px;
+  margin-bottom: -15px;
 }
-.dot-shape img {
-  width: ;
-}
-.dot-shap2 img {
-  width: 35%;
+.dot-shape1 {
+  position: relative;
+  left: -47px;
 }
 /*Shape end*/
 
