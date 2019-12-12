@@ -55,3 +55,6 @@
 #arrows1 { width: 596px; }
 #arrows2 { width: 602px; }
 #img1, #img2 { max-width: 400px; }
+.promo-right-inner {
+  margin-top: 18px;
+}
