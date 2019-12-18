@@ -37,7 +37,8 @@
                       class="font-weight-bold btn btn-gold"
                       type="submit"
                     >
-                      Join
+                      <span v-if="submittingEmail">Submitting...</span>
+                      <span v-else>Join</span>
                     </button>
                   </span>
                 </div>
@@ -250,7 +251,8 @@
                   class="font-weight-bold btn btn-gold"
                   type="submit"
                 >
-                  Join
+                  <span v-if="submittingEmail">Submitting...</span>
+                  <span v-else>Join</span>
                 </button>
               </span>
             </div>
@@ -302,22 +304,19 @@ export default {
   components: {},
   data() {
     return {
-      email: ''
+      email: '',
+      submittingEmail: false
     }
   },
   methods: {
     submitEmail() {
-      // console.log('hi Eric. the email is ' + this.email)
-      // ok now i'll get the content from the form field and console log it
-      // const now = new Date()
-      // const posixTime = Math.round(now.getTime() / 1000)
-      // const email = 'ciotest-1-' + posixTime + '@fattyfatfat.com'
-
+      this.submittingEmail = true
       _cio.identify({
         // Required attributes
         id: this.email,
         email: this.email
       })
+      this.submittingEmail = false
     }
   }
 }
