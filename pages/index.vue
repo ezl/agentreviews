@@ -32,7 +32,7 @@
                     placeholder="What is your email address?"
                   />
                   <span class="input-group-append">
-                    <button class="btn btn-gold" type="submit">
+                    <button class="font-weight-bold btn btn-gold" type="submit">
                       Join
                     </button>
                   </span>
@@ -241,7 +241,7 @@
                 placeholder="What is your email address?"
               />
               <span class="input-group-append">
-                <button class="btn btn-gold" type="submit">
+                <button class="font-weight-bold btn btn-gold" type="submit">
                   Join
                 </button>
               </span>
