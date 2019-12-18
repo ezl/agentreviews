@@ -317,6 +317,7 @@ export default {
         email: this.email
       })
       this.submittingEmail = false
+      this.$router.push({ path: 'thankyou' })
     }
   }
 }
