@@ -1,5 +1,5 @@
 <template>
-  <div id="theEntireOriginalPageJustForNow">
+  <div>
     <!-- Hero-area -->
     <div class="hero-area">
       <div class="arrow bounce">
