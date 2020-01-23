@@ -310,11 +310,14 @@ export default {
   },
   methods: {
     submitEmail() {
+      var now = new Date()
+      var epoch = Math.floor(now.getTime() / 1000)
       this.submittingEmail = true
       _cio.identify({
         // Required attributes
         id: this.email,
-        email: this.email
+        email: this.email,
+        created_at: epoch
       })
       this.submittingEmail = false
       this.$router.push({ path: 'thankyou' })
