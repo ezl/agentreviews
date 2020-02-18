@@ -310,8 +310,8 @@ export default {
   },
   methods: {
     submitEmail() {
-      var now = new Date()
-      var epoch = Math.floor(now.getTime() / 1000)
+      const now = new Date()
+      const epoch = Math.floor(now.getTime() / 1000)
       this.submittingEmail = true
       _cio.identify({
         // Required attributes
