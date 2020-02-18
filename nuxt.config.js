@@ -17,7 +17,10 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    script: [{ src: '/javascript/customer.io.js' }],
+    script: [
+      { src: '/javascript/customer.io.js' },
+      { src:'/javascript/facebook_pixel.js', type: 'text/javascript'}
+    ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   /*
